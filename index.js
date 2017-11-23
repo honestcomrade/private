@@ -1,7 +1,7 @@
 "use strict"
 
 module.exports = {
-  log: function() {
-    return console.log("Hi from module");
+  log: () => {
+    console.log("Hey from module")
   }
 }
