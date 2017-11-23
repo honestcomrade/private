@@ -1,3 +1,7 @@
-console.log("Log");
+"use strict"
 
-export default Log;
+module.exports = {
+  log: function() {
+    return console.log("Hi from module");
+  }
+}
